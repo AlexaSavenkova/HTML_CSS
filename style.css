@@ -325,8 +325,8 @@ header .container {
 
 .featuredPicture {
     display: block;
-    object-fit: cover;
-    object-position: center center;
+    width: 263px;
+    height: 281px;
 }
 
 .featuredInfo {
@@ -335,6 +335,7 @@ header .container {
     text-transform: uppercase;
     text-align: left;
     padding-left: 11px;
+    padding-right: 11px;
     padding-top: 18px;
     box-sizing: border-box;
 }
@@ -361,7 +362,7 @@ header .container {
 }
 
 .featuredItem:hover .featuredInfo {
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
 .featuredBrowseAllBtn {
@@ -424,6 +425,7 @@ header .container {
     color: #fbfbfb;
     letter-spacing: 0.025em;
     padding-left: 111px;
+    padding-right: 37px;
 }
 
 .infoBlockHeader {

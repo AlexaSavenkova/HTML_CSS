@@ -1,0 +1,44 @@
+.navTitle {
+    background: none;
+    border-radius: 0 !important;
+    padding: 11.5px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6f6e6e;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: '';
+        width: 5px;
+        height: 37px;
+        background-color: #ef5b70;
+    }
+
+}
+
+.navUnit {
+    border: none;
+    border-radius: 0;
+
+    &:not(:last-child) {
+        margin-bottom: 18px;
+    }
+
+    nav a {
+        display: block;
+        font-size: 14px;
+        line-height: 33px;
+        font-weight: 400;
+        color: #6f6e6e;
+    }
+}

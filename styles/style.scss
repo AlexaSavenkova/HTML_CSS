@@ -1,0 +1,24 @@
+// @import "../bootstrap-4.5.3/scss/bootstrap";
+
+@import "_variablesAndSettings";
+@import "_header";
+@import "_newArrivals";
+@import "_leftNav";
+@import "_productsAdjustment";
+@import "_products";
+@import "_pagination";
+@import "_info";
+@import "_footer";
+
+main {
+    margin-top: 60px;
+}
+
+.products {
+    margin-top: 45px;
+
+}
+
+.pagination {
+    margin-bottom: 106px;
+}

@@ -1,0 +1,104 @@
+.productsAdjustment {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6f6e6e;
+
+    h3 {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .adjustmentLinks {
+        color: #dfdfdf;
+        width: 190px;
+        margin-left: -7px;
+
+        a {
+            color: #6f6e6e;
+            padding-left: 7px;
+            line-height: 28px;
+
+            &:after {
+                content: '|';
+                margin-left: 7px;
+            }
+
+            &:last-child {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .adjustmentSize {
+        display: flex;
+        flex-wrap: wrap;
+
+        div {
+            width: 56px;
+        }
+
+        input[type="checkbox"] {
+            opacity: 0.3;
+        }
+
+        input[type="checkbox"]:checked {
+            opacity: 1;
+        }
+    }
+
+    .priceRange {
+        width: 262px;
+        height: 14px;
+        background: url(../images/priceRange.svg) no-repeat;
+    }
+
+    .priceValues {
+        display: flex;
+        justify-content: space-between;
+        color: #6f6e6e;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 14px;
+    }
+
+    .productSorting {
+        margin-top: 20px;
+        height: 50px;
+        background-color: #f3f3f3;
+        display: flex;
+        justify-content: flex-start;
+
+        .sortingUnit {
+            display: flex;
+            align-items: center;
+            padding: 7px;
+
+            .sortingTitle,
+            .sortingSelect {
+                height: 30px;
+                background-color: #ffffff;
+                border: 1px solid #ebebeb;
+                font-size: 14px;
+                line-height: 14px;
+                font-weight: 400;
+                color: #6f6e6e;
+                padding: 7px;
+            }
+
+            .sortingSelect {
+                border-left: none;
+
+                i {
+                    margin-left: 13px;
+                }
+            }
+        }
+    }
+
+
+}

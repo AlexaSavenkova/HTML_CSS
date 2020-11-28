@@ -1,0 +1,98 @@
+.b-subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+
+    &__header {
+        font-size: 24px;
+        line-height: 33px;
+        text-transform: uppercase;
+        color: #222224;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: none;
+    }
+
+    &__input {
+        width: 282px;
+        height: 46px;
+        background-color: #e1e1e1;
+        outline: none;
+        border: none;
+        border-top-left-radius: 23px;
+        border-bottom-left-radius: 23px;
+        padding-left: 28px;
+        box-sizing: border-box;
+        font-family: inherit;
+
+        &::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            opacity: 0.67;
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 54px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #222224;
+        }
+
+        &::-moz-placeholder {
+            /* Firefox 19+ */
+            opacity: 0.67;
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 54px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #222224;
+        }
+
+        &:-ms-input-placeholder {
+            /* IE 10+ */
+            opacity: 0.67;
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 54px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #222224;
+        }
+
+        &:-moz-placeholder {
+            /* Firefox 18- */
+            opacity: 0.67;
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 54px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #222224;
+        }
+    }
+
+    &__btn {
+        width: 104px;
+        height: 46px;
+        background-color: $majorColor;
+        border: none;
+        border-top-right-radius: 23px;
+        border-bottom-right-radius: 23px;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.025em;
+        color: #ffffff;
+    }
+
+
+    &__form {
+        display: flex;
+        margin-top: 26px;
+    }
+}

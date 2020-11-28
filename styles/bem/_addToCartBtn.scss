@@ -1,0 +1,22 @@
+.b-addToCartBtn {
+    width: 537px;
+    height: 55px;
+    font-family: inherit;
+    background-color: #ffffff;
+    border: 1px solid #ef5b70;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ef5b70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+    &__img {
+        margin-right: 15px;
+    }
+
+    &_marginBottom {
+        margin-bottom: 122px;
+    }
+}

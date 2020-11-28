@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+$majorColor: #f16d7f;
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import "bem/logo";
+@import "bem/searchForm";
+@import "bem/cart";
+@import "bem/myAccountBtn";
+@import "bem/mainNav";
+@import "bem/newArrivals";
+@import "bem/slider";
+@import "bem/addToCartBtn";
+@import "bem/productDetails";
+@import "bem/catalog";
+@import "bem/reviews";
+@import "bem/subscribe";
+@import "bem/siteSectionNav";
+@import "bem/copyrights";
+@import "bem/socialMedia";
+
+
+header {
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ececec;
+
+    .container {
+        height: inherit;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.alsoLike {
+    margin-top: 119px;
+    text-align: center;
+
+    h1 {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #4d4d4d;
+    }
+}
+
+.reviewsAndSubscribe {
+    height: 438px;
+    background: url(../images/subscribeBackground.jpg) no-repeat,
+        rgba(242, 242, 242, 0.5);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: left bottom;
+    margin-bottom: 100px;
+
+    .container {
+        height: inherit;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1px;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerDescription {
+    width: 427px;
+}
+
+.footerDescriptionText {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #898989;
+
+    p {
+        margin-top: 26px;
+    }
+}
+
+.copyrightsAndSocialMedia {
+    height: 80px;
+    background: #e6e6e6;
+    margin-top: 70px;
+
+    .container {
+        display: flex;
+        height: inherit;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

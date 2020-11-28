@@ -1,0 +1,15 @@
+.b-myAccountBtn {
+    width: 130px;
+    height: 38px;
+    background-color: $majorColor;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    border: none;
+
+    &__caretDown {
+        margin-left: 8px;
+    }
+}

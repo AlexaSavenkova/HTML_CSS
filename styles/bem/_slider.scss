@@ -1,0 +1,30 @@
+.b-slider {
+    background-color: #f7f7f7;
+    border: 1px solid #eaeaea;
+    position: relative;
+    height: 777px;
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__arrowLeft,
+    &__arrowRight {
+        position: absolute;
+        top: calc(50% - 47px / 2);
+        width: 47px;
+        height: 47px;
+        background-color: rgba(42, 42, 42, 0.14);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    &__arrowRight {
+        right: 0;
+    }
+}

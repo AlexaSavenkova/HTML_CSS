@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                BRAN<span>D</span>
+            </div>
+            <form class="topSearch">
+                <div>
+                    Browse
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <input type="text" placeholder="Search for Item...">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <img class="cart" src="images/cart.png" alt="">
+            <button class="myAccountBtn">
+                My Account
+                <i class="fas fa-caret-down"></i>
+            </button>
+        </div>
+    </header>
+
+
+    <nav class="topNav">
+        <a href="#">Home</a>
+        <a href="#">Man</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Accoseriese</a>
+        <a href="#">Featured</a>
+        <a href="#">Hot Deals</a>
+    </nav>
+
+
+    <div class="newArrivals">
+        <div class="container">
+            <h1>NEW ARRIVALS</h1>
+            <nav>
+                <a href="#">HOME </a>/
+                <a href="#">MEN </a>/
+                <a href="#"> NEW ARRIVALS </a>
+            </nav>
+        </div>
+    </div>
+
+
+    <main class="container">
+        <div class="leftNav">
+            <div class="accordion" id="accordionExample">
+                <div class="card navUnit">
+                    <div class="navTitle" id="headingOne" data-target="#collapseOne" data-toggle="collapse">
+                        Category
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <nav class="card-body">
+                            <a href="#">Accessories</a>
+                            <a href="#">Bags</a>
+                            <a href="#">Denim</a>
+                            <a href="#">Hoodies & Sweatshirts</a>
+                            <a href="#">Jackets & Coats</a>
+                            <a href="#">Pants</a>
+                            <a href="#">Polos</a>
+                            <a href="#">Shirts</a>
+                            <a href="#">Shoes</a>
+                            <a href="#">Shorts</a>
+                            <a href="#">Sweaters & Knits</a>
+                            <a href="#">T-Shirts</a>
+                            <a href="#">Tanks</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card navUnit">
+                    <div class="navTitle" id="headingTwo" data-target="#collapseTwo" data-toggle="collapse">
+                        BRAND
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <nav class="card-body">
+                            <a href="#">Accessories</a>
+                            <a href="#">Bags</a>
+                            <a href="#">Denim</a>
+                            <a href="#">Hoodies & Sweatshirts</a>
+                            <a href="#">Jackets & Coats</a>
+                            <a href="#">Pants</a>
+                            <a href="#">Polos</a>
+                            <a href="#">Shirts</a>
+                            <a href="#">Shoes</a>
+                            <a href="#">Shorts</a>
+                            <a href="#">Sweaters & Knits</a>
+                            <a href="#">T-Shirts</a>
+                            <a href="#">Tanks</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card navUnit">
+                    <div class="navTitle" id="headingThree" data-target="#collapseThree" data-toggle="collapse">
+                        DESIGNER
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <nav class="card-body">
+                            <a href="#">Accessories</a>
+                            <a href="#">Bags</a>
+                            <a href="#">Denim</a>
+                            <a href="#">Hoodies & Sweatshirts</a>
+                            <a href="#">Jackets & Coats</a>
+                            <a href="#">Pants</a>
+                            <a href="#">Polos</a>
+                            <a href="#">Shirts</a>
+                            <a href="#">Shoes</a>
+                            <a href="#">Shorts</a>
+                            <a href="#">Sweaters & Knits</a>
+                            <a href="#">T-Shirts</a>
+                            <a href="#">Tanks</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog">
+            <div class="productsAdjustment">
+                <div class="adjustmenrUnit">
+                    <h3>Trending now</h3>
+                    <nav class="adjustmentLinks">
+                        <a href="#">Bohemian</a>
+                        <a href="#">Floral</a>
+                        <a href="#">Lace</a>
+                        <a href="#">Floral</a>
+                        <a href="#">Lace</a>
+                        <a href="#">Bohemian</a>
+                    </nav>
+                </div>
+                <div class="adjustmenrUnit">
+                    <h3>Size</h3>
+                    <div class="adjustmentSize">
+                        <div>
+                            <input id="XXS" type="checkbox">
+                            <label for="XXS">XXS</label>
+                        </div>
+                        <div>
+                            <input id="XS" type="checkbox">
+                            <label for="XS">XS</label>
+                        </div>
+                        <div>
+                            <input id="S" type="checkbox">
+                            <label for="S">S</label>
+                        </div>
+                        <div>
+                            <input id="M" type="checkbox">
+                            <label for="M">M</label>
+                        </div>
+                        <div>
+                            <input id="L" type="checkbox">
+                            <label for="L">L</label>
+                        </div>
+                        <div>
+                            <input id="XL" type="checkbox">
+                            <label for="XL">XL</label>
+                        </div>
+                        <div>
+                            <input id="XXL" type="checkbox">
+                            <label for="XXL">XXL</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="adjustmenrUnit">
+                    <h3>Price</h3>
+                    <div class="priceRange"></div>
+                    <div class="priceValues">
+                        <span>$52</span>
+                        <span>$400</span>
+                    </div>
+                </div>
+            </div>
+            <div class="productSorting">
+                <div class="sortingUnit">
+                    <div class="sortingTitle">
+                        Sort By
+                    </div>
+                    <div class="sortingSelect">
+                        Name
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+                <div class="sortingUnit">
+                    <div class="sortingTitle">
+                        Show
+                    </div>
+                    <div class="sortingSelect">
+                        09
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="featuredItem">
+                    <div class="featuredHover">
+                        <button>
+                            <img src="images/addToCart.png" alt="">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="featuredPicture">
+                        <img src="images/product1.png" alt="">
+                    </div>
+
+                    <div class="featuredInfo">
+                        <div class="featuredItemName">
+                            MANGO PEOPLE T-SHIRT
+                        </div>
+                        <div class="featuredItemPrice">
+                            $52.00
+                        </div>
+                    </div>
+                </div>
+                <div class="featuredItem">
+                    <div class="featuredHover">
+                        <button>
+                            <img src="images/addToCart.png" alt="">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="featuredPicture">
+                        <img src="images/product2.png" alt="">
+                    </div>
+
+                    <div class="featuredInfo">
+                        <div class="featuredItemName">
+                            MANGO PEOPLE T-SHIRT
+                        </div>
+                        <div class="featuredItemPrice">
+                            $52.00
+                        </div>
+                    </div>
+                </div>
+                <div class="featuredItem">
+                    <div class="featuredHover">
+                        <button>
+                            <img src="images/addToCart.png" alt="">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="featuredPicture">
+                        <img src="images/product3.png" alt="">
+                    </div>
+
+                    <div class="featuredInfo">
+                        <div class="featuredItemName">
+                            MANGO PEOPLE T-SHIRT
+                        </div>
+                        <div class="featuredItemPrice">
+                            $52.00
+                        </div>
+                    </div>
+                </div>
+                <div class="featuredItem">
+                    <div class="featuredHover">
+                        <button>
+                            <img src="images/addToCart.png" alt="">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="featuredPicture">
+                        <img src="images/product4.png" alt="">
+                    </div>
+
+                    <div class="featuredInfo">
+                        <div class="featuredItemName">
+                            MANGO PEOPLE T-SHIRT
+                        </div>
+                        <div class="featuredItemPrice">
+                            $52.00
+                        </div>
+                    </div>
+                </div>
+                <div class="featuredItem">
+                    <div class="featuredHover">
+                        <button>
+                            <img src="images/addToCart.png" alt="">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="featuredPicture">
+                        <img src="images/product5.png" alt="">
+                    </div>
+
+                    <div class="featuredInfo">
+                        <div class="featuredItemName">
+                            MANGO PEOPLE T-SHIRT
+                        </div>
+                        <div class="featuredItemPrice">
+                            $52.00
+                        </div>
+                    </div>
+                </div>
+                <div class="featuredItem">
+                    <div class="featuredHover">
+                        <button>
+                            <img src="images/addToCart.png" alt="">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="featuredPicture">
+                        <img src="images/product6.png" alt="">
+                    </div>
+
+                    <div class="featuredInfo">
+                        <div class="featuredItemName">
+                            MANGO PEOPLE T-SHIRT
+                        </div>
+                        <div class="featuredItemPrice">
+                            $52.00
+                        </div>
+                    </div>
+                </div>
+                <div class="featuredItem">
+                    <div class="featuredHover">
+                        <button>
+                            <img src="images/addToCart.png" alt="">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="featuredPicture">
+                        <img src="images/product7.png" alt="">
+                    </div>
+
+                    <div class="featuredInfo">
+                        <div class="featuredItemName">
+                            MANGO PEOPLE T-SHIRT
+                        </div>
+                        <div class="featuredItemPrice">
+                            $52.00
+                        </div>
+                    </div>
+                </div>
+                <div class="featuredItem">
+                    <div class="featuredHover">
+                        <button>
+                            <img src="images/addToCart.png" alt="">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="featuredPicture">
+                        <img src="images/product8.png" alt="">
+                    </div>
+
+                    <div class="featuredInfo">
+                        <div class="featuredItemName">
+                            MANGO PEOPLE T-SHIRT
+                        </div>
+                        <div class="featuredItemPrice">
+                            $52.00
+                        </div>
+                    </div>
+                </div>
+                <div class="featuredItem">
+                    <div class="featuredHover">
+                        <button>
+                            <img src="images/addToCart.png" alt="">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="featuredPicture">
+                        <img src="images/product9.png" alt="">
+                    </div>
+
+                    <div class="featuredInfo">
+                        <div class="featuredItemName">
+                            MANGO PEOPLE T-SHIRT
+                        </div>
+                        <div class="featuredItemPrice">
+                            $52.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <div class="pages">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <span>.....</span>
+                    <a href="#">20</a>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <button>
+                    View All
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <div class="info">
+        <div class="container">
+            <div class="infoBlock delivery">
+                <div class="infoImg">
+                    <img src="images/lorry.svg" alt="">
+                </div>
+                <div class="infoBlockHeader">
+                    Free Delivery
+                </div>
+                <div class="infoBlockText">
+                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </div>
+            </div>
+            <div class="infoBlock sales">
+                <div class="infoImg">
+                    <img src="images/discount.svg" alt="">
+                </div>
+                <div class="infoBlockHeader">
+                    Sales & discounts
+                </div>
+                <div class="infoBlockText">
+                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </div>
+            </div>
+            <div class="infoBlock quality">
+                <div class="infoImg">
+                    <img src="images/crown.svg" alt="">
+                </div>
+                <div class="infoBlockHeader">
+                    Quality assurance
+                </div>
+                <div class="infoBlockText">
+                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviewsAndSubscribe">
+        <div class="container">
+            <div class="reviews">
+                <div class="reviewsInside">
+                    <img src="images/reviewPerson.png" alt="">
+                    <div class="reviewsContent">
+                        <div class="reviewsText">
+                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                        </div>
+                        <div class="reviewsName">
+                            Bin Burhan
+                        </div>
+                        <div class="reviewsLocation">
+                            Dhaka, Bd
+                        </div>
+                        <div class="reviewsSwitcher">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="subscribeHeader">
+                    SUBSCRIBE
+                </div>
+                <div class="subscribeText">
+                    FOR OUR NEWLETTER AND PROMOTION
+                </div>
+                <form class="subscribeForm" action="#">
+                    <input type="email" placeholder="Enter Your Email">
+                    <button class="subscribeBtn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container">
+        <div class="footerDescription">
+            <div class="logo">
+                BRAN<span>D</span>
+            </div>
+            <div class="footerDescriptionText">
+                <p>
+                    Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                    syndicate multidisciplinary materials before go&nbsp;forward benefits. Intrinsicly syndicate
+                    an&nbsp;expanded
+                    array of&nbsp;processes and cross-unit partnerships.
+                </p>
+                <p>
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </p>
+            </div>
+        </div>
+        <section class="footerSection sectionCompany">
+            <h2>COMPANY</h2>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Shop</a>
+                <a href="">About</a>
+                <a href="">How It Works</a>
+                <a href="">Contact</a>
+            </nav>
+        </section>
+        <section class="footerSection sectionInformation">
+            <h2>INFORMATION</h2>
+            <nav>
+                <a href="">Tearms & Condition</a>
+                <a href="">Privacy Policy</a>
+                <a href="">How to Buy</a>
+                <a href="">How to Sell</a>
+                <a href="">Promotion</a>
+            </nav>
+        </section>
+        <section class="footerSection sectionCategory">
+            <h2>SHOP CATEGORY</h2>
+            <nav>
+                <a href="">Men</a>
+                <a href="">Women</a>
+                <a href="">Child</a>
+                <a href="">Apparel</a>
+                <a href="">Brows All</a>
+            </nav>
+        </section>
+    </footer>
+
+    <div class="copyrightsAndSocialMedia">
+        <div class="container">
+            <div class="copyrights">
+                &copy; 2017 Brand All Rights Reserved.
+            </div>
+            <div class="socialMedia">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                <a href=""><i class="fab fa-google-plus-g"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,45 @@
+@import "_variablesAndSettings";
+@import "_logo";
+@import "_header";
+@import "_topNav";
+@import "_newArrivals";
+@import "_leftNav";
+@import "_productsAdjustment";
+@import "_products";
+@import "_pagination";
+@import "_info";
+@import "_reviewsAndSubscribe";
+@import "_footer";
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    column-gap: 42px;
+
+    @media (max-width: 991px) {
+        grid-template-columns: 1fr 2fr;
+        column-gap: 30px;
+    }
+
+    @media (max-width: 780px) {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+    }
+
+    @media (max-width: 660px) {
+        grid-template-columns: 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+
+}
+
+.products {
+    margin-top: 45px;
+
+}
+
+.pagination {
+    margin-bottom: 106px;
+    margin-top: 42px;
+}

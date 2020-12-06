@@ -1,0 +1,90 @@
+.offers {
+    margin-top: 98px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-areas:
+        "offerMen offerWomen"
+        "offerMen offerKids"
+        "offerAccesories offerKids"
+    ;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "offerMen"
+            "offerWomen"
+            "offerKids"
+            "offerAccesories"
+        ;
+    }
+
+    @media (min-width: 540px) and (max-width: 768px) {
+        width: 60%;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.offerMen,
+.offerAccesories,
+.offerWomen,
+.offerKids {
+    position: relative;
+}
+
+.offerMen {
+    grid-area: offerMen;
+}
+
+.offerAccesories {
+    grid-area: offerAccesories;
+}
+
+.offerWomen {
+    grid-area: offerWomen;
+}
+
+.offerKids {
+    grid-area: offerKids;
+}
+
+
+.offerLabel {
+    position: absolute;
+    top: 20px;
+    background-color: #ffffff;
+    padding: 16px 19px 12px 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+
+    @media (max-width: 940px) {
+        top: initial;
+        bottom: 25px;
+    }
+}
+
+.labelTop {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #222222;
+
+    @media (max-width: 400px) {
+        font-size: 16px;
+    }
+}
+
+.labelBottom {
+    font-size: 30px;
+    color: #f16d7f;
+
+    @media (max-width: 400px) {
+        font-size: 21px;
+    }
+}

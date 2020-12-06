@@ -1,0 +1,71 @@
+.info {
+    background-color: #222224;
+
+    .container {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "delivery sales quality ";
+
+
+        @media (max-width: 1199px) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "delivery sales"
+                "quality quality";
+        }
+
+        @media (max-width: 767px) {
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "delivery"
+                "sales"
+                "quality";
+        }
+
+        .delivery {
+            grid-area: delivery;
+        }
+
+        .sales {
+            grid-area: sales;
+        }
+
+        .quality {
+            grid-area: quality;
+        }
+
+        .infoBlock {
+            color: #fbfbfb;
+            letter-spacing: 0.025em;
+            width: 308px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 341px;
+
+            @media (max-width: 360px) {
+                width: 290px;
+            }
+
+            .infoBlockHeader {
+                font-size: 20px;
+                line-height: 1.2;
+                font-weight: 700;
+                margin-top: 29px;
+            }
+
+            .infoBlockText {
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 300;
+                margin-top: 10px;
+                letter-spacing: 0.025em;
+            }
+        }
+
+    }
+
+}

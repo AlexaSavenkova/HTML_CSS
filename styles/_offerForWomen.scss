@@ -1,0 +1,116 @@
+.offerForWomen {
+    margin-top: 113px;
+    margin-bottom: 73px;
+    display: grid;
+    background-color: #222224;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-areas:
+        "banner delivery"
+        "banner discount"
+        "banner quality"
+    ;
+
+    @media (max-width:1030px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "banner banner"
+            "delivery discount"
+            "quality ."
+        ;
+    }
+
+    @media (max-width:555px) {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "banner"
+            "delivery"
+            "discount"
+            "quality"
+        ;
+    }
+}
+
+
+
+.offerForWomenBanner {
+    min-height: 529px;
+    grid-area: banner;
+    background: url(#{$imagesPath}/offerForWomen.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+
+}
+
+.offerForWomenText {
+    position: absolute;
+    left: 39px;
+    top: 146px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+
+    @media (max-width:1050px) {
+        bottom: 39px;
+        top: initial;
+    }
+
+}
+
+.offerForWomenLine1 {
+    font-size: 53.7px;
+}
+
+.offerForWomen span {
+    color: #f16d7f;
+}
+
+.offerForWomenLine2 {
+    font-size: 32.2px;
+}
+
+
+.block1 {
+    grid-area: delivery;
+    background: url(#{$imagesPath}/lorry.svg) no-repeat;
+}
+
+.block2 {
+    grid-area: discount;
+    background: url(#{$imagesPath}/discount.svg) no-repeat;
+}
+
+.block3 {
+    grid-area: quality;
+    background: url(#{$imagesPath}/crown.svg) no-repeat;
+}
+
+.infoBlock {
+    color: #fbfbfb;
+    letter-spacing: 0.025em;
+    padding-left: 111px;
+    padding-right: 37px;
+    background-position: top 40px left 36px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+
+    &:hover .infoBlockHeader {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.infoBlockHeader {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.infoBlockText {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

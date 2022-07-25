@@ -18,8 +18,11 @@
             width: 263px;
             height: 281px;
             background-color: rgba(58, 56, 56, 0.83);
-            display: none;
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition-duration: 1s;
             button {
                 width: 123px;
                 height: 39px;
@@ -54,6 +57,7 @@
             padding-right: 11px;
             padding-top: 18px;
             box-sizing: border-box;
+            transition-duration: 1.5s;
 
             .featuredItemName {
                 font-size: 13px;
@@ -72,9 +76,8 @@
         }
 
         &:hover .featuredHover {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            opacity: 100%;
+            transition-duration: 1s;
         }
 
         &:hover .featuredInfo {

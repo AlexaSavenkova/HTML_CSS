@@ -10,7 +10,14 @@
     color: #222222;
 
     span {
+        display: inline-block;
         font-weight: 900;
         color: $majorColor;
+        transition-duration: 1s;
+    }
+    &:hover span{
+        transition-property: transform;
+        transform: scale(1.2, 1.2);
+        transition-duration: 1s;
     }
 }

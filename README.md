@@ -1,3 +1,3 @@
 # HTML_CSS
-HTML/CSS Профессиональная верстка
-new line
+Курс HTML/CSS
+Верстка по шаблону

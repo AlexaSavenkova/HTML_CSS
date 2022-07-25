@@ -23,11 +23,12 @@
         text-transform: uppercase;
         color: #222222;
         border-bottom: 3px solid transparent;
+        transition-duration: 1s;
 
         &:hover {
             cursor: pointer;
             border-bottom: 3px solid #ef5b70;
-
+            transition-duration: 1s;
         }
 
         &:not(:last-child) {
